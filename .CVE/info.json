@@ -1,0 +1,10 @@
+{
+    "buggy_file_path": "pulsar-broker/src/main/java/org/apache/pulsar/broker/admin/impl/PersistentTopicsBase.java",
+    "buggy_method":[[-1,-1]],
+    "buggy_line":[[-1,-1]],
+    "bug_type": "insertion",
+    "compile_cmd": "mvn -pl pulsar-broker install -DskipTests",
+    "test_cmd" : "mvn -pl pulsar-broker test -Dtest=PersistentTopicsTest",
+    "CVE": "CVE-2021-41571",
+    "github_url":"https://github.com/apache/pulsar/commit/9bfb3dba7c13e8250e1002efdeb39eec56f7e2da#diff-66aeb65a64cbe7c541f013ae807c5bcbeab567bef77706c7ff2e0cbfe0d77eb1L2331"
+}
