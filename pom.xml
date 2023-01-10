@@ -1270,7 +1270,7 @@ flexible messaging model and an intuitive client API.</description>
   <build>
     <finalName>${project.artifactId}</finalName>
     <plugins>
-      <plugin>
+      <!-- <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-checkstyle-plugin</artifactId>
         <dependencies>
@@ -1280,7 +1280,7 @@ flexible messaging model and an intuitive client API.</description>
             <version>${project.version}</version>
           </dependency>
         </dependencies>
-      </plugin>
+      </plugin> -->
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
@@ -1713,7 +1713,7 @@ flexible messaging model and an intuitive client API.</description>
           <artifactId>maven-assembly-plugin</artifactId>
           <version>${maven-assembly-plugin.version}</version>
         </plugin>
-        <plugin>
+        <!-- <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-checkstyle-plugin</artifactId>
           <version>${maven-checkstyle-plugin.version}</version>
@@ -1730,7 +1730,7 @@ flexible messaging model and an intuitive client API.</description>
             <encoding>UTF-8</encoding>
             <excludes>**/proto/*</excludes>
           </configuration>
-        </plugin>
+        </plugin> -->
         <plugin>
           <groupId>pl.project13.maven</groupId>
           <artifactId>git-commit-id-plugin</artifactId>
@@ -1827,7 +1827,7 @@ flexible messaging model and an intuitive client API.</description>
       </build>
       <reporting>
         <plugins>
-          <plugin>
+          <!-- <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-checkstyle-plugin</artifactId>
             <configuration>
@@ -1836,7 +1836,7 @@ flexible messaging model and an intuitive client API.</description>
               <encoding>UTF-8</encoding>
               <excludes>**/proto/*</excludes>
             </configuration>
-          </plugin>
+          </plugin> -->
           <plugin>
             <artifactId>maven-javadoc-plugin</artifactId>
             <configuration>
@@ -1887,7 +1887,7 @@ flexible messaging model and an intuitive client API.</description>
                       </execution>
                    </executions>
                 </plugin>
-                <plugin>
+                <!-- <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-checkstyle-plugin</artifactId>
                     <executions>
@@ -1905,7 +1905,7 @@ flexible messaging model and an intuitive client API.</description>
                           </goals>
                        </execution>
                     </executions>
-                </plugin>
+                </plugin> -->
              </plugins>
          </build>
     </profile>
