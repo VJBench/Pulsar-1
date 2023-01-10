@@ -1,7 +1,7 @@
 {
     "buggy_file_path": "pulsar-broker/src/main/java/org/apache/pulsar/broker/admin/impl/PersistentTopicsBase.java",
-    "buggy_method":[[-1,-1]],
-    "buggy_line":[[-1,-1]],
+    "buggy_method":[[2291,2329]],
+    "buggy_line":[[2303]],
     "bug_type": "insertion",
     "compile_cmd": "mvn -pl pulsar-broker install -DskipTests",
     "test_cmd" : "mvn -pl pulsar-broker test -Dtest=PersistentTopicsTest",
